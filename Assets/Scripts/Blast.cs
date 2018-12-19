@@ -14,7 +14,7 @@ using UnityEngine;
 				//when I left click, send whatever object I clicked on that has a rigidbody
 				//X distance
 				if (hit.rigidbody){
-					hit.rigidbody.AddForce(Random.insideUnitSphere * 9f);
+					hit.rigidbody.AddForce(Random.insideUnitSphere * 850f);
 					
 				
 						}
